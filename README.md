@@ -22,3 +22,47 @@ How Uniscan Works?
 The GUI Interface if Uniscan tool can be activated through the uniscan-gui command on the terminal. The interface is quite friendly with the new hackers. All the options can be used with a single click. Firstly, we need to specify the target domain URL for which the process will be done. Then we need to select the options which will be performed on the domain like directory check, file check, robots.txt file check, web fingerprinting, server fingerprinting, dynamic test option, static test option, and stress test. All the activities are saved in the log files which can be used as the result file for our scans on the target domain.
 
 Note: Make Sure You have Perl Installed on your System, as this is a Perl-based tool. Click to check the Installation process – Perl Installation Steps on Linux
+
+
+Installation of Uniscan Tool on Kali Linux OS
+
+Step 1: Update the System by using the following command.
+
+sudo apt-get update
+
+
+Step 2: Now use the following command to install the Uniscan tool from the apt manager.
+
+sudo apt-get install uniscan
+
+Step 3: Now our tool is successfully installed. Check the help page by using the following command.
+
+sudo uniscan -h
+
+Working with Uniscan Tool on Kali Linux OS
+
+Example 1: Check Directory
+
+In this example, We are performing Directory Brute-Forcing on http://testphp.vulnweb.com
+
+Example 2: Check Files
+
+In this example, We are performing Files Brute-Forcing on http://testphp.vulnweb.com
+
+Example 3: Check /robots.txt
+
+In this Example, We are checking robots.txt file of http://testphp.vulnweb.com target domain
+
+Example 4: Server Fingerprint
+
+In this Example, We are performing Server Fingerprinting on http://testphp.vulnweb.com.
+
+
+Example 5: Dynamic Tests
+
+In this Example, We are performing Dynamic Tests on http://testphp.vulnweb.com.
+
+Whether you're preparing for your first job interview or aiming to upskill in this ever-evolving tech landscape, GeeksforGeeks Courses are your key to success. We provide top-quality content at affordable prices, all geared towards accelerating your growth in a time-bound manner. Join the millions we've already empowered, and we're here to do the same for you. Don't miss out - check it out now!
+
+
+         join my facebook page: https://www.facebook.com/profile.php?id=100094990842842
